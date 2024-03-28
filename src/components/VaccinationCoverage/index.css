@@ -1,0 +1,14 @@
+.vaccination-chart-container {
+  background-color: #1c1c2b;
+  border-radius: 5px;
+  padding: 20px;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+.vaccination-chart-heading {
+  color: #94a3b8;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}

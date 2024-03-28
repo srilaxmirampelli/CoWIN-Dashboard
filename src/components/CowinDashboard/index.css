@@ -1,0 +1,63 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+
+.cowin-dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background-color: #161625;
+  min-height: 100vh;
+}
+.website-logo-container {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+}
+.website-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+.website-logo-name {
+  color: #2cc6c6;
+  font-size: 18px;
+  font-weight: 500;
+  
+}
+.app-heading {
+  color: #cbd5e1;
+  font-weight: 500;
+  font-size: 22px;
+  align-self: flex-start;
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+.failure-view-img {
+  width: 700px;
+  height: 500px;
+}
+.failure-text {
+  color: white;
+  font-family: 'Bree Serif';
+  font-size: 22px;
+  font-weight: bold;
+}
+.loader-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
